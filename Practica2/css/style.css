@@ -1,0 +1,61 @@
+body{
+    background-color: #A9D0F5 /*Puede escoger el color de su elección*/
+    }
+
+h1 {
+    color: #0000FF; /* Cambiamos el color del texto a #0000FF */
+    text-transform: capitalize; 
+    /* Cada primera letra de cada palabra es cambiada a mayúscula*/
+    font-size: 20px; /* Cambiamos el tamaño del texto a 15 pixeles */
+    }
+
+hr {
+    color: #f00; /* Color de borde rojo*/
+    width: 60%; /* Ancho de línea de 60% */
+    background-color: #f00; /* Color de línea Rojo */
+    height: 5px; /* Alto de línea de 5 pixeles */
+    }
+
+table, th, td{
+    border: 2px solid green; 
+    padding: 5px;
+    background-color: #FE9A2E;
+    }
+
+th{
+    border: 2px solid blue;
+    background-color: blueviolet;
+    }
+
+mark {
+    background-color: red;
+    color: black;
+    }
+      
+div{
+    -moz-border-radius: 10px; /* Border redondeao de 10 pixeles (Mozilla)*/
+        -webkit-border-radius: 10px;
+    /* Border redondeao de 10 pixeles (Chrome)*/
+    background-color: #58ACFA; /* Color de Fondo #58ACFA; */
+        border-radius: 10px; /* Border redondeao de 10 pixeles */
+        border: 2px solid #0000FF;
+    /* Border sólido de 2 pixeles de color #0000FF;*/
+    margin: 10px; /* Margen de 10 pixeles */
+    padding: 20px; /* Padding de 20 pixeles */
+    text-align : justify; /* Alineación de texto Justificado */
+    width: 20%; /* Ancho de Caja de 20% */
+    }
+
+#publicidad{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-image: url("C:/Users/gonay/OneDrive/Documentos/Desarrollo/HTML/Practica2/img/pilas.jpg"); 
+    /* Imagen de Fondo: pilas.jpg */
+    border-radius: 10px;
+    border: 2px solid #0000FF;
+    margin: 10px;
+    padding: 20px;
+    text-align : justify;
+    width: 20%;
+    }
+
