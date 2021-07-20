@@ -13,7 +13,7 @@ a{
 }
 
 hr{
-    height: 5px;
+    height: 0px;
     width: 60%;
     border: 5px solid #000000;
 }
@@ -84,4 +84,18 @@ div#interno{
     padding: 10px;
     text-align: justify;
     font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+img#planetas{
+    margin: 0px auto 20px auto; /* (Top, Right, Bottom, Left) */
+    border-radius: 8px 8px 8px 8px;
+    width: 200px;
+    height: 200px;
+    display: block; 
+}
+
+img#inicio, img#solar1{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
 }
